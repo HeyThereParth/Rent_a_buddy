@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rent a friendly companion in Roorkee for walks, food trips, or conversation. Professional buddy service for genuine human connection."
+    />
+    <meta
+      name="keywords"
+      content="rent a buddy, roorkee companion, friendly guide, local buddy, social companion"
+    />
+    <title>Rent a Buddy in Roorkee - Friendly Companion Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤝</text></svg>"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        scroll-behavior: smooth;
+      }
+      .fade-in {
+        animation: fadeIn 1s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .card-hover:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+      .btn-hover:hover {
+        transform: translateY(-2px);
+      }
+      .pricing-card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      }
+      .popular-badge {
+        position: absolute;
+        top: 12px;
+        right: 20px;
+        background: linear-gradient(45deg, #f59e0b, #f97316);
+        color: white;
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: 600;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .testimonial-card {
+        background: linear-gradient(135deg, #f9fafb, #f3f4f6);
+        border-left: 4px solid #6366f1;
+      }
+      .privacy-link {
+        color: #818cf8;
+        text-decoration: underline;
+      }
+      .privacy-link:hover {
+        color: #6366f1;
+      }
+      .input-error {
+        border-color: #ef4444;
+      }
+      .error-message {
+        color: #ef4444;
+        font-size: 0.875rem;
+        margin-top: 0.25rem;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm fixed w-full z-10">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+          <div class="flex items-center space-x-1">
+            <i class="fas fa-hands-helping text-purple-500 text-2xl"></i>
+            <span class="text-xl font-semibold text-gray-800"
+              >Rent a Buddy</span
+            >
+          </div>
+          <div class="hidden md:flex space-x-8">
+            <a
+              href="#home"
+              class="text-gray-600 hover:text-purple-500 transition"
+              >Home</a
+            >
+            <a
+              href="#how-it-works"
+              class="text-gray-600 hover:text-purple-500 transition"
+              >How It Works</a
+            >
+            <a
+              href="#pricing"
+              class="text-gray-600 hover:text-purple-500 transition"
+              >Pricing</a
+            >
+            <a
+              href="#testimonials"
+              class="text-gray-600 hover:text-purple-500 transition"
+              >Testimonials</a
+            >
+            <a
+              href="#about"
+              class="text-gray-600 hover:text-purple-500 transition"
+              >About</a
+            >
+            <a
+              href="#request"
+              class="text-gray-600 hover:text-purple-500 transition"
+              >Request</a
+            >
+          </div>
+          <div class="md:hidden">
+            <button id="menu-btn" class="text-gray-600 focus:outline-none">
+              <i class="fas fa-bars text-xl"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile menu -->
+      <div id="mobile-menu" class="hidden md:hidden bg-white pb-4 px-4">
+        <a
+          href="#home"
+          class="block py-2 text-gray-600 hover:text-purple-500 transition"
+          >Home</a
+        >
+        <a
+          href="#how-it-works"
+          class="block py-2 text-gray-600 hover:text-purple-500 transition"
+          >How It Works</a
+        >
+        <a
+          href="#pricing"
+          class="block py-2 text-gray-600 hover:text-purple-500 transition"
+          >Pricing</a
+        >
+        <a
+          href="#testimonials"
+          class="block py-2 text-gray-600 hover:text-purple-500 transition"
+          >Testimonials</a
+        >
+        <a
+          href="#about"
+          class="block py-2 text-gray-600 hover:text-purple-500 transition"
+          >About</a
+        >
+        <a
+          href="#request"
+          class="block py-2 text-gray-600 hover:text-purple-500 transition"
+          >Request</a
+        >
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="pt-24 pb-16 md:pt-32 md:pb-24 px-4 bg-gradient-to-br from-blue-50 to-indigo-50"
+    >
+      <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 mb-10 md:mb-0 fade-in">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+              Find a Friendly Buddy in Roorkee
+            </h1>
+            <p class="text-lg text-gray-600 mb-8 text-justify">
+              New in town or feeling lonely? Book a friendly male companion for
+              a walk, food trip, or just a conversation. No dating - just
+              genuine human connection with a reliable local buddy.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <a
+                href="#request"
+                class="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 inline-block shadow-lg"
+              >
+                <i class="fas fa-calendar-check mr-2"></i> Book Now
+              </a>
+              <a
+                href="#about"
+                class="border-2 border-indigo-500 text-indigo-500 hover:bg-indigo-50 font-semibold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 inline-block"
+              >
+                <i class="fas fa-user mr-2"></i> Know Your Buddy
+              </a>
+            </div>
+            <div class="mt-8 flex items-center space-x-4">
+              <div class="flex -space-x-2">
+                <img
+                  class="w-10 h-10 rounded-full border-2 border-white"
+                  src="https://randomuser.me//api?gender=female"
+                  alt="Happy customer"
+                />
+                <img
+                  class="w-10 h-10 rounded-full border-2 border-white"
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
+                  alt="Happy customer"
+                />
+                <img
+                  class="w-10 h-10 rounded-full border-2 border-white"
+                  src="https://randomuser.me/api/portraits/women/68.jpg"
+                  alt="Happy customer"
+                />
+              </div>
+              <div>
+                <p class="text-sm text-gray-600">
+                  <span class="font-semibold">20+</span> satisfied clients
+                </p>
+                <div class="flex">
+                  <i class="fas fa-star text-yellow-400"></i>
+                  <i class="fas fa-star text-yellow-400"></i>
+                  <i class="fas fa-star text-yellow-400"></i>
+                  <i class="fas fa-star text-yellow-400"></i>
+                  <i class="fas fa-star text-yellow-400"></i>
+                  <span class="ml-2 text-sm font-medium">4.9/5</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-1/2 flex justify-center fade-in">
+            <div class="relative w-full max-w-md mx-auto group">
+              <img
+                src="./image/portrait-young-boy-christmas-celebrations.jpg"
+                alt="Friendly buddy"
+                class="rounded-2xl shadow-xl w-full transform transition duration-500 ease-in-out group-hover:scale-105 group-hover:shadow-2xl"
+              />
+              <div
+                class="absolute -bottom-4 -right-4 bg-yellow-400 text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg ring-4 ring-white"
+              >
+                <i class="fas fa-thumbs-up text-xl animate-bounce"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-16 px-4 bg-white">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+          How It Works
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div
+            class="bg-blue-50 p-8 rounded-xl transition duration-300 card-hover"
+          >
+            <div
+              class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto"
+            >
+              <span class="text-blue-500 text-2xl font-bold">1</span>
+            </div>
+            <h3 class="text-xl font-semibold text-center mb-4 text-gray-800">
+              Fill Out the Form
+            </h3>
+            <p class="text-gray-600 text-center">
+              Tell us about yourself and what kind of buddy experience you're
+              looking for. We'll need some basic details to ensure a good match.
+            </p>
+          </div>
+          <div
+            class="bg-purple-50 p-8 rounded-xl transition duration-300 card-hover"
+          >
+            <div
+              class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto"
+            >
+              <span class="text-purple-500 text-2xl font-bold">2</span>
+            </div>
+            <h3 class="text-xl font-semibold text-center mb-4 text-gray-800">
+              Get Confirmation
+            </h3>
+            <p class="text-gray-600 text-center">
+              We'll match you with a buddy and send you details via email within
+              24 hours. Payment for the first hour is required to confirm.
+            </p>
+          </div>
+          <div
+            class="bg-pink-50 p-8 rounded-xl transition duration-300 card-hover"
+          >
+            <div
+              class="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto"
+            >
+              <span class="text-pink-500 text-2xl font-bold">3</span>
+            </div>
+            <h3 class="text-xl font-semibold text-center mb-4 text-gray-800">
+              Meet Your Buddy
+            </h3>
+            <p class="text-gray-600 text-center">
+              Enjoy quality time with your friendly companion in Roorkee! We'll
+              meet at a public location of your choice.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 px-4 bg-gray-50">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+          What People Say
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card p-6 rounded-lg shadow-sm">
+            <div class="flex items-center mb-4">
+              <img
+                src="https://randomuser.me/api/portraits/women/44.jpg"
+                alt="Sarah K."
+                class="w-12 h-12 rounded-full mr-4"
+              />
+              <div>
+                <h4 class="font-semibold text-gray-800">Sarah K.</h4>
+                <div class="flex items-center">
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-600 italic">
+              "As a solo female traveler, I was hesitant at first but felt
+              completely safe. My buddy showed me amazing local food spots I
+              would never have found on my own. Highly recommend the food tour!"
+            </p>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card p-6 rounded-lg shadow-sm">
+            <div class="flex items-center mb-4">
+              <img
+                src="https://randomuser.me/api/portraits/men/32.jpg"
+                alt="Rajesh P."
+                class="w-12 h-12 rounded-full mr-4"
+              />
+              <div>
+                <h4 class="font-semibold text-gray-800">Rajesh P.</h4>
+                <div class="flex items-center">
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-600 italic">
+              "Recently moved to Roorkee for work and didn't know anyone. My
+              buddy helped me get familiar with the city and even introduced me
+              to some local groups. Great service for newcomers!"
+            </p>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card p-6 rounded-lg shadow-sm">
+            <div class="flex items-center mb-4">
+              <img
+                src="https://randomuser.me/api/portraits/women/68.jpg"
+                alt="Priya M."
+                class="w-12 h-12 rounded-full mr-4"
+              />
+              <div>
+                <h4 class="font-semibold text-gray-800">Priya M.</h4>
+                <div class="flex items-center">
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-600 italic">
+              "I booked a buddy for my elderly father who was feeling lonely.
+              They had wonderful conversations and even played chess together.
+              The service was respectful and exactly what we needed."
+            </p>
+          </div>
+
+          <!-- Testimonial 4 -->
+          <div class="testimonial-card p-6 rounded-lg shadow-sm">
+            <div class="flex items-center mb-4">
+              <img
+                src="https://randomuser.me/api/portraits/men/75.jpg"
+                alt="Amit S."
+                class="w-12 h-12 rounded-full mr-4"
+              />
+              <div>
+                <h4 class="font-semibold text-gray-800">Amit S.</h4>
+                <div class="flex items-center">
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                  <i class="fas fa-star text-yellow-400 text-sm"></i>
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-600 italic">
+              "The cycling tour around Roorkee was fantastic! My buddy knew all
+              the best routes and shared interesting historical facts. Perfect
+              way to spend a Saturday morning."
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-12 text-center">
+          <a
+            href="#request"
+            class="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-6 rounded-full transition duration-300 transform hover:scale-105 shadow-md"
+          >
+            <i class="fas fa-handshake mr-2"></i> Book Your Experience
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section
+      id="pricing"
+      class="py-16 px-4 bg-gradient-to-br from-indigo-50 to-blue-50"
+    >
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-4">
+          Transparent Pricing
+        </h2>
+        <p class="text-lg text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+          Hourly rates vary by activity type. We require advance payment for the
+          first hour to confirm your booking.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Basic Package -->
+          <div
+            class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 pricing-card relative"
+          >
+            <div class="p-8">
+              <h3 class="text-2xl font-bold text-gray-800 mb-2">
+                Basic Hangout
+              </h3>
+              <p class="text-gray-600 mb-6">
+                Casual conversation, city walk, or coffee chat
+              </p>
+              <div class="flex items-end mb-6">
+                <span class="text-4xl font-bold text-indigo-600">₹100</span>
+                <span class="text-gray-500 ml-2">/ hour</span>
+              </div>
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                  <span>Minimum 1 hour booking</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                  <span>Public locations only</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                  <span>Flexible timing</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                  <span>Great for first-timers</span>
+                </li>
+              </ul>
+              <a
+                href="#request"
+                class="block w-full bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg text-center transition"
+              >
+                Book Basic
+              </a>
+            </div>
+          </div>
+
+          <!-- Popular Package -->
+          <div
+            class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 pricing-card relative"
+          >
+            <div class="popular-badge">MOST POPULAR</div>
+            <div class="p-8">
+              <h3 class="text-2xl font-bold text-gray-800 mb-2">
+                Food & Exploration
+              </h3>
+              <p class="text-gray-600 mb-6">
+                Local food tour or city exploration
+              </p>
+              <div class="flex items-end mb-6">
+                <span class="text-4xl font-bold text-indigo-600">₹150</span>
+                <span class="text-gray-500 ml-2">/ hour</span>
+              </div>
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                  <span>Minimum 2 hours recommended</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                  <span>Includes local recommendations</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                  <span>Food costs extra (yours only)</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                  <span>Best value experience</span>
+                </li>
+              </ul>
+              <a
+                href="#request"
+                class="block w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-lg text-center transition"
+              >
+                Book Exploration
+              </a>
+            </div>
+          </div>
+
+          <!-- Premium Package -->
+          <div
+            class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 pricing-card relative"
+          >
+            <div class="p-8">
+              <h3 class="text-2xl font-bold text-gray-800 mb-2">
+                Premium Experience
+              </h3>
+              <p class="text-gray-600 mb-6">
+                Specialized activities or full-day assistance
+              </p>
+              <div class="flex items-end mb-6">
+                <span class="text-4xl font-bold text-indigo-600">₹250</span>
+                <span class="text-gray-500 ml-2">/ hour</span>
+              </div>
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                  <span>Minimum 3 hours booking</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                  <span>Customized itinerary</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                  <span>Transportation included</span>
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                  <span>Photography assistance</span>
+                </li>
+              </ul>
+              <a
+                href="#request"
+                class="block w-full bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg text-center transition"
+              >
+                Book Premium
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12 bg-white p-6 rounded-xl shadow-md max-w-4xl mx-auto">
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">
+            Payment Policy
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="flex items-start">
+              <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                <i class="fas fa-money-bill-wave text-indigo-600"></i>
+              </div>
+              <div>
+                <h4 class="font-medium text-gray-800">Advance Payment</h4>
+                <p class="text-gray-600 text-sm">
+                  We require payment for the first hour in advance to confirm
+                  your booking.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                <i class="fas fa-clock text-indigo-600"></i>
+              </div>
+              <div>
+                <h4 class="font-medium text-gray-800">Hourly Billing</h4>
+                <p class="text-gray-600 text-sm">
+                  After the first hour, you'll be billed in 30-minute
+                  increments.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                <i class="fas fa-undo text-indigo-600"></i>
+              </div>
+              <div>
+                <h4 class="font-medium text-gray-800">Cancellation Policy</h4>
+                <p class="text-gray-600 text-sm">
+                  Full refund if cancelled 24 hours before. 50% refund if
+                  cancelled 12 hours before.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                <i class="fas fa-wallet text-indigo-600"></i>
+              </div>
+              <div>
+                <h4 class="font-medium text-gray-800">Payment Methods</h4>
+                <p class="text-gray-600 text-sm">
+                  UPI, PayTM, Google Pay, or cash on meeting (advance only
+                  digital).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About the Buddy -->
+    <section
+      id="about"
+      class="py-16 px-4 bg-gradient-to-br from-indigo-50 to-blue-50"
+    >
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+          About the Buddy
+        </h2>
+        <div
+          class="flex flex-col md:flex-row items-center bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-[1.01] transition duration-500"
+        >
+          <div class="md:w-1/3 p-8 md:p-12 flex justify-center bg-indigo-100">
+            <div class="relative">
+              <div
+                class="w-64 h-64 rounded-full bg-indigo-200 flex items-center justify-center shadow-inner"
+              >
+                <img
+                  src="./image/portrait-young-boy-christmas-celebrations.jpg"
+                  alt="Buddy"
+                  class="w-60 h-60 rounded-full object-cover border-4 border-white"
+                />
+              </div>
+              <div
+                class="absolute -bottom-5 -right-5 bg-indigo-500 text-white rounded-full w-16 h-16 flex items-center justify-center shadow-lg animate-pulse"
+              >
+                <i class="fas fa-star text-xl"></i>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-2/3 p-8 md:p-12">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+              Friendly, Approachable & Here to Help
+            </h3>
+            <p class="text-gray-600 mb-6 text-justify">
+              Though not originally from Roorkee, I've been staying here for the
+              past few years and have grown to know the city well. Whether
+              you're new in town, visiting, or just looking for someone to hang
+              out with — I'm here to offer good company, local suggestions, and
+              friendly conversation.
+              <strong class="font-semibold"
+                >This is not a dating or romantic service.</strong
+              >
+              It's all about genuine, respectful human connection.
+            </p>
+            <div class="grid grid-cols-2 gap-4 mb-6">
+              <div class="flex items-center bg-indigo-50 p-3 rounded-lg">
+                <i
+                  class="fas fa-map-marked-alt text-indigo-500 mr-3 text-xl"
+                ></i>
+                <span class="text-gray-700 font-medium">Local Expert</span>
+              </div>
+              <div class="flex items-center bg-indigo-50 p-3 rounded-lg">
+                <i class="fas fa-utensils text-indigo-500 mr-3 text-xl"></i>
+                <span class="text-gray-700 font-medium">Food Guide</span>
+              </div>
+              <div class="flex items-center bg-indigo-50 p-3 rounded-lg">
+                <i class="fas fa-comments text-indigo-500 mr-3 text-xl"></i>
+                <span class="text-gray-700 font-medium">Great Listener</span>
+              </div>
+              <div class="flex items-center bg-indigo-50 p-3 rounded-lg">
+                <i class="fas fa-camera text-indigo-500 mr-3 text-xl"></i>
+                <span class="text-gray-700 font-medium">Photo Help</span>
+              </div>
+              <div class="flex items-center bg-indigo-50 p-3 rounded-lg">
+                <i class="fas fa-language text-indigo-500 mr-3 text-xl"></i>
+                <span class="text-gray-700 font-medium">English & Hindi</span>
+              </div>
+              <div class="flex items-center bg-indigo-50 p-3 rounded-lg">
+                <i class="fas fa-id-card text-indigo-500 mr-3 text-xl"></i>
+                <span class="text-gray-700 font-medium">Verified ID</span>
+              </div>
+            </div>
+            <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6">
+              <p class="text-yellow-700 italic">
+                <i class="fas fa-quote-left mr-2"></i>
+                I believe every stranger is just a friend I haven't met yet.
+                Let's explore Roorkee together!
+                <i class="fas fa-quote-right ml-2"> </i>
+              </p>
+            </div>
+            <a
+              href="#request"
+              class="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-6 rounded-full transition duration-300 transform hover:scale-105 shadow-md"
+            >
+              <i class="fas fa-handshake mr-2"></i> Book Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Request Form -->
+    <section id="request" class="py-20 px-6 bg-white">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-4xl font-extrabold text-indigo-700 mb-3">
+          Book Your Roorkee Buddy
+        </h2>
+        <p class="text-gray-600 mb-10 text-lg">
+          Let us know your preferences — we'll confirm within 24 hours!
+        </p>
+      </div>
+
+      <form
+        id="buddy-form"
+        class="max-w-3xl mx-auto bg-white p-8 rounded-3xl shadow-2xl border border-gray-200"
+      >
+        <div id="form-message" class="hidden mb-6 p-4 rounded text-sm"></div>
+
+        <div class="grid md:grid-cols-2 gap-6 mb-6">
+          <div>
+            <label for="name" class="block text-gray-700 font-medium mb-2"
+              >Your Name*</label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="John Doe"
+              class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            />
+            <div id="name-error" class="error-message hidden">
+              Please enter your name
+            </div>
+          </div>
+
+          <div>
+            <label for="email" class="block text-gray-700 font-medium mb-2"
+              >Email Address*</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="you@example.com"
+              class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            />
+            <div id="email-error" class="error-message hidden">
+              Please enter a valid email
+            </div>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-1 gap-6 mb-6">
+          <div>
+            <label for="age" class="block text-gray-700 font-medium mb-2"
+              >Your Age*</label
+            >
+            <input
+              type="number"
+              id="age"
+              name="age"
+              required
+              min="18"
+              max="99"
+              placeholder="24"
+              class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            />
+            <div id="age-error" class="error-message hidden">
+              Please enter a valid age (18-99)
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-4">
+            <div>
+              <label
+                for="preferredDate"
+                class="block text-gray-700 font-medium mb-2"
+                >Preferred Date*</label
+              >
+              <input
+                type="date"
+                id="preferredDate"
+                name="preferredDate"
+                required
+                min=""
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400 cursor-pointer"
+              />
+              <div id="date-error" class="error-message hidden">
+                Please select a valid date
+              </div>
+            </div>
+            <div>
+              <label
+                for="preferredTime"
+                class="block text-gray-700 font-medium mb-2"
+                >Preferred Time*</label
+              >
+              <input
+                type="time"
+                id="preferredTime"
+                name="preferredTime"
+                required
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400 cursor-pointer"
+              />
+              <div id="time-error" class="error-message hidden">
+                Please select a time
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-6">
+          <label for="activity" class="block text-gray-700 font-medium mb-2"
+            >Activity Type*</label
+          >
+          <select
+            id="activity"
+            name="activity"
+            required
+            class="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-400 cursor-pointer"
+          >
+            <option value="" disabled selected>Select an activity</option>
+            <option value="City Walk">City Walk (₹100/hr)</option>
+            <option value="Online Chat">Online Chat (₹100/hr)</option>
+            <option value="Coffee Chat">Coffee Chat (₹100/hr)</option>
+            <option value="Food Trip">Food Trip (₹150/hr)</option>
+            <option value="Cycling">Cycling (₹150/hr)</option>
+            <option value="Cultural Visit">Cultural Visit (₹250/hr)</option>
+            <option value="Other">Other (Price on request)</option>
+          </select>
+          <div id="activity-error" class="error-message hidden">
+            Please select an activity
+          </div>
+        </div>
+
+        <div class="mb-6">
+          <label for="hours" class="block text-gray-700 font-medium mb-2"
+            >Estimated Hours Needed*</label
+          >
+          <input
+            type="number"
+            id="hours"
+            name="hours"
+            min="1"
+            max="8"
+            required
+            placeholder="2"
+            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+          />
+          <div id="hours-error" class="error-message hidden">
+            Please enter hours (1-8)
+          </div>
+        </div>
+
+        <div class="mb-8">
+          <label for="notes" class="block text-gray-700 font-medium mb-2"
+            >Additional Notes</label
+          >
+          <textarea
+            id="notes"
+            name="notes"
+            rows="4"
+            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            placeholder="Let us know if you have any preferences, accessibility needs, or other requests..."
+          ></textarea>
+        </div>
+
+        <div class="bg-blue-50 p-4 rounded-lg mb-6">
+          <div class="flex items-start">
+            <div class="flex-shrink-0 mt-1">
+              <i class="fas fa-info-circle text-blue-500 text-xl"></i>
+            </div>
+            <div class="ml-3">
+              <p class="text-sm text-blue-700">
+                <strong>Payment Note:</strong> We require advance payment for
+                the first hour to confirm your booking. The remaining amount can
+                be paid in cash or digitally when we meet.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-6">
+          <div class="flex items-start">
+            <div class="flex items-center h-5">
+              <input
+                id="terms"
+                name="terms"
+                type="checkbox"
+                required
+                class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded"
+              />
+            </div>
+            <div class="ml-3 text-sm">
+              <label for="terms" class="font-medium text-gray-700">
+                I agree to the
+                <a href="#privacy" class="privacy-link">Privacy Policy</a> and
+                understand this is a non-romantic companion service
+              </label>
+            </div>
+          </div>
+          <div id="terms-error" class="error-message hidden">
+            You must agree to the terms
+          </div>
+        </div>
+
+        <button
+          type="submit"
+          class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 transform hover:scale-105 shadow-md flex items-center justify-center"
+        >
+          <i class="fas fa-paper-plane mr-2"></i> Send Booking Request
+        </button>
+      </form>
+    </section>
+
+    <!-- Privacy Policy Modal -->
+    <div id="privacy-modal" class="fixed inset-0 z-50 hidden overflow-y-auto">
+      <div
+        class="flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0"
+      >
+        <div class="fixed inset-0 transition-opacity" aria-hidden="true">
+          <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+        </div>
+
+        <div
+          class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
+        >
+          <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+            <div class="sm:flex sm:items-start">
+              <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
+                <h3 class="text-lg leading-6 font-medium text-gray-900 mb-4">
+                  Privacy Policy
+                </h3>
+                <div
+                  class="mt-2 max-h-96 overflow-y-auto text-sm text-gray-600"
+                >
+                  <p class="mb-4"><strong>Last Updated:</strong> June 2023</p>
+                  <p class="mb-4">
+                    Rent a Buddy ("we", "us", or "our") operates the Rent a
+                    Buddy service (the "Service"). This page informs you of our
+                    policies regarding the collection, use, and disclosure of
+                    personal data when you use our Service and the choices you
+                    have associated with that data.
+                  </p>
+                  <h4 class="font-semibold mb-2">
+                    Information Collection And Use
+                  </h4>
+                  <p class="mb-4">
+                    We collect several different types of information for
+                    various purposes to provide and improve our Service to you.
+                  </p>
+                  <h4 class="font-semibold mb-2">Types of Data Collected</h4>
+                  <p class="mb-2">
+                    <strong>Personal Data:</strong> While using our Service, we
+                    may ask you to provide us with certain personally
+                    identifiable information that can be used to contact or
+                    identify you ("Personal Data"). Personally identifiable
+                    information may include, but is not limited to:
+                  </p>
+                  <ul class="list-disc pl-5 mb-4">
+                    <li>Email address</li>
+                    <li>First name and last name</li>
+                    <li>Age</li>
+                    <li>Booking preferences and requests</li>
+                  </ul>
+                  <h4 class="font-semibold mb-2">Use of Data</h4>
+                  <p class="mb-4">
+                    Rent a Buddy uses the collected data for various purposes:
+                  </p>
+                  <ul class="list-disc pl-5 mb-4">
+                    <li>To provide and maintain our Service</li>
+                    <li>To notify you about changes to our Service</li>
+                    <li>
+                      To allow you to participate in interactive features of our
+                      Service when you choose to do so
+                    </li>
+                    <li>To provide customer support</li>
+                    <li>
+                      To gather analysis or valuable information so that we can
+                      improve our Service
+                    </li>
+                    <li>To monitor the usage of our Service</li>
+                    <li>To detect, prevent and address technical issues</li>
+                  </ul>
+                  <h4 class="font-semibold mb-2">Security Of Data</h4>
+                  <p class="mb-4">
+                    The security of your data is important to us but remember
+                    that no method of transmission over the Internet or method
+                    of electronic storage is 100% secure. While we strive to use
+                    commercially acceptable means to protect your Personal Data,
+                    we cannot guarantee its absolute security.
+                  </p>
+                  <h4 class="font-semibold mb-2">
+                    Changes To This Privacy Policy
+                  </h4>
+                  <p class="mb-4">
+                    We may update our Privacy Policy from time to time. We will
+                    notify you of any changes by posting the new Privacy Policy
+                    on this page and updating the "last updated" date at the top
+                    of this Privacy Policy.
+                  </p>
+                  <h4 class="font-semibold mb-2">Contact Us</h4>
+                  <p>
+                    If you have any questions about this Privacy Policy, please
+                    contact us at rentyourbud@gmail.com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+            <button
+              type="button"
+              id="close-privacy"
+              class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12 px-6">
+      <div class="max-w-6xl mx-auto space-y-12">
+        <!-- Logo and Brand -->
+        <div class="flex justify-center">
+          <div class="flex items-center space-x-3">
+            <i class="fas fa-hands-helping text-purple-400 text-2xl"></i>
+            <span class="text-2xl font-semibold tracking-wide"
+              >Rent a Buddy</span
+            >
+          </div>
+        </div>
+
+        <!-- Info Grid -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left"
+        >
+          <div>
+            <h3 class="text-lg font-semibold text-white mb-2">Service Area</h3>
+            <p class="text-gray-400">
+              Currently available only in Roorkee, Uttarakhand
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-white mb-2">Contact</h3>
+            <p class="text-gray-400">rentyourbud@gmail.com</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-white mb-2">Hours</h3>
+            <p class="text-gray-400">07:00 AM - 8:00 PM</p>
+            <p class="text-gray-400 mt-1">7 days a week</p>
+          </div>
+        </div>
+
+        <!-- Social Links -->
+        <!-- <div class="flex justify-center space-x-6">
+          <a href="#" class="text-gray-400 hover:text-white">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div> -->
+
+        <!-- Bottom Note -->
+        <div
+          class="text-center border-t border-gray-700 pt-6 text-sm text-gray-500"
+        >
+          <p>&copy; 2025 Rent a Buddy Roorkee. All rights reserved.</p>
+          <p class="mt-2">
+            <a href="#privacy" class="privacy-link">Privacy Policy</a> |
+            <a href="#privacy" class="privacy-link">Terms of Service</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Initialize EmailJS (replace with your actual credentials)
+      (function () {
+        emailjs.init("YOUR_EMAILJS_USER_ID"); // Replace with your EmailJS user ID
+      })();
+
+      // Mobile menu toggle
+      const menuBtn = document.getElementById("menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+
+      // Set minimum date to today
+      document.addEventListener("DOMContentLoaded", function () {
+        const today = new Date().toISOString().split("T")[0];
+        document.getElementById("preferredDate").min = today;
+      });
+
+      // Privacy modal
+      const privacyModal = document.getElementById("privacy-modal");
+      const privacyLinks = document.querySelectorAll('a[href="#privacy"]');
+      const closePrivacy = document.getElementById("close-privacy");
+
+      privacyLinks.forEach((link) => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          privacyModal.classList.remove("hidden");
+        });
+      });
+
+      closePrivacy.addEventListener("click", function () {
+        privacyModal.classList.add("hidden");
+      });
+
+      // Form validation
+      function validateForm() {
+        let isValid = true;
+
+        // Reset errors
+        document.querySelectorAll(".error-message").forEach((el) => {
+          el.classList.add("hidden");
+        });
+        document.querySelectorAll(".input-error").forEach((el) => {
+          el.classList.remove("input-error");
+        });
+
+        // Validate name
+        const name = document.getElementById("name").value.trim();
+        if (!name) {
+          document.getElementById("name").classList.add("input-error");
+          document.getElementById("name-error").classList.remove("hidden");
+          isValid = false;
+        }
+
+        // Validate email
+        const email = document.getElementById("email").value.trim();
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!email || !emailRegex.test(email)) {
+          document.getElementById("email").classList.add("input-error");
+          document.getElementById("email-error").classList.remove("hidden");
+          isValid = false;
+        }
+
+        // Validate age
+        const age = document.getElementById("age").value;
+        if (!age || age < 18 || age > 99) {
+          document.getElementById("age").classList.add("input-error");
+          document.getElementById("age-error").classList.remove("hidden");
+          isValid = false;
+        }
+
+        // Validate date
+        const date = document.getElementById("preferredDate").value;
+        if (!date) {
+          document.getElementById("preferredDate").classList.add("input-error");
+          document.getElementById("date-error").classList.remove("hidden");
+          isValid = false;
+        }
+
+        // Validate time
+        const time = document.getElementById("preferredTime").value;
+        if (!time) {
+          document.getElementById("preferredTime").classList.add("input-error");
+          document.getElementById("time-error").classList.remove("hidden");
+          isValid = false;
+        }
+
+        // Validate activity
+        const activity = document.getElementById("activity").value;
+        if (!activity) {
+          document.getElementById("activity").classList.add("input-error");
+          document.getElementById("activity-error").classList.remove("hidden");
+          isValid = false;
+        }
+
+        // Validate hours
+        const hours = document.getElementById("hours").value;
+        if (!hours || hours < 1 || hours > 8) {
+          document.getElementById("hours").classList.add("input-error");
+          document.getElementById("hours-error").classList.remove("hidden");
+          isValid = false;
+        }
+
+        // Validate terms
+        const terms = document.getElementById("terms").checked;
+        if (!terms) {
+          document.getElementById("terms-error").classList.remove("hidden");
+          isValid = false;
+        }
+
+        return isValid;
+      }
+
+      // Form submission
+      document
+        .getElementById("buddy-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          if (!validateForm()) {
+            return;
+          }
+
+          const form = e.target;
+          const formMessage = document.getElementById("form-message");
+
+          // Show loading state
+          const submitBtn = form.querySelector('button[type="submit"]');
+          const originalBtnText = submitBtn.textContent;
+          submitBtn.disabled = true;
+          submitBtn.innerHTML =
+            '<i class="fas fa-spinner fa-spin mr-2"></i> Sending...';
+
+          // Send email using EmailJS
+          emailjs
+            .sendForm(
+              "YOUR_EMAILJS_SERVICE_ID",
+              "YOUR_EMAILJS_TEMPLATE_ID",
+              form
+            ) // Replace with your IDs
+            .then(
+              function (response) {
+                // Show success message
+                formMessage.classList.remove(
+                  "hidden",
+                  "bg-red-100",
+                  "text-red-700"
+                );
+                formMessage.classList.add("bg-green-100", "text-green-700");
+                formMessage.innerHTML =
+                  '<i class="fas fa-check-circle mr-2"></i> Your request has been sent successfully! We\'ll contact you within 24 hours.';
+
+                // Reset form
+                form.reset();
+              },
+              function (error) {
+                // Show error message
+                formMessage.classList.remove(
+                  "hidden",
+                  "bg-green-100",
+                  "text-green-700"
+                );
+                formMessage.classList.add("bg-red-100", "text-red-700");
+                formMessage.innerHTML =
+                  '<i class="fas fa-exclamation-circle mr-2"></i> There was an error sending your request. Please try again later or contact us directly at rentyourbud@gmail.com';
+              }
+            )
+            .finally(function () {
+              // Reset button state
+              submitBtn.disabled = false;
+              submitBtn.textContent = originalBtnText;
+
+              // Scroll to message
+              formMessage.scrollIntoView({
+                behavior: "smooth",
+                block: "center",
+              });
+            });
+        });
+
+      // Scroll to sections smoothly
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        if (anchor.getAttribute("href") !== "#privacy") {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute("href");
+            const targetElement = document.querySelector(targetId);
+
+            if (targetElement) {
+              // Close mobile menu if open
+              mobileMenu.classList.add("hidden");
+
+              // Scroll to target
+              window.scrollTo({
+                top: targetElement.offsetTop - 80,
+                behavior: "smooth",
+              });
+            }
+          });
+        }
+      });
+
+      // Add fade-in animation when elements come into view
+      const fadeElements = document.querySelectorAll(".fade-in");
+
+      const fadeInObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("opacity-100");
+            }
+          });
+        },
+        { threshold: 0.1 }
+      );
+
+      fadeElements.forEach((element) => {
+        element.classList.add("opacity-0");
+        fadeInObserver.observe(element);
+      });
+    </script>
+  </body>
+</html>
